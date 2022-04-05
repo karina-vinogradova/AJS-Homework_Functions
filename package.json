@@ -1,0 +1,33 @@
+{
+  "name": "test-ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karina-vinogradova/AJS-Homework_Test-CI.git"
+  },
+  "author": "Karina Vinogradova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karina-vinogradova/AJS-Homework_Test-CI/issues"
+  },
+  "homepage": "https://github.com/karina-vinogradova/AJS-Homework_Test-CI#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "core-js": "^3.21.1"
+  }
+}
